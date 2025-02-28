@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPILLMarket Prototype Loading...</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #111827;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
+      padding: 2rem;
+    }
+    h1 {
+      color: #9333ea;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      color: #d1d5db;
+      margin-bottom: 2rem;
+    }
+    .loader {
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+    }
+    .loader:after {
+      content: " ";
+      display: block;
+      width: 64px;
+      height: 64px;
+      margin: 8px;
+      border-radius: 50%;
+      border: 6px solid #9333ea;
+      border-color: #9333ea transparent #9333ea transparent;
+      animation: loader 1.2s linear infinite;
+    }
+    @keyframes loader {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+  <meta http-equiv="refresh" content="2;url=https://github.com/iPhonz/spillmarket-prototype">
+</head>
+<body>
+  <div class="container">
+    <h1>SPILLMarket Prototype</h1>
+    <p>Please visit the GitHub repository for installation instructions.</p>
+    <div class="loader"></div>
+    <p>Redirecting to repository...</p>
+  </div>
+</body>
+</html>
