@@ -8,6 +8,41 @@ A React prototype of the SPILLMarket social commerce interface with vertical scr
 
 The prototype is automatically deployed to GitHub Pages whenever changes are pushed to the main branch.
 
+## Troubleshooting GitHub Pages Deployment
+
+If the automatic deployment fails, you can manually deploy with these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/iPhonz/spillmarket-prototype.git
+   cd spillmarket-prototype
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run the deploy script**:
+   ```bash
+   # Make the script executable
+   chmod +x deploy.sh
+   
+   # Run the deployment
+   ./deploy.sh
+   ```
+
+4. **Or deploy manually with npm**:
+   ```bash
+   npm run deploy
+   ```
+
+5. **Check GitHub Pages settings**:
+   - Go to repository Settings > Pages
+   - Ensure the source is set to "Deploy from a branch"
+   - Select "gh-pages" branch and "/ (root)" folder
+   - Click "Save"
+
 ## Features
 
 - Vertical scrollable feed with snap functionality
