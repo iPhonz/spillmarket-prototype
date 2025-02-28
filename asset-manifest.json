@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/spillmarket-prototype/static/css/main.a2ca7e70.css",
+    "main.js": "/spillmarket-prototype/static/js/main.bda11e90.js",
+    "index.html": "/spillmarket-prototype/index.html",
+    "main.a2ca7e70.css.map": "/spillmarket-prototype/static/css/main.a2ca7e70.css.map",
+    "main.bda11e90.js.map": "/spillmarket-prototype/static/js/main.bda11e90.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2ca7e70.css",
+    "static/js/main.bda11e90.js"
+  ]
+}
