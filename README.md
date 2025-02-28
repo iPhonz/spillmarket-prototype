@@ -2,6 +2,12 @@
 
 A React prototype of the SPILLMarket social commerce interface with vertical scrolling feed, similar to TikTok Shop or Poshmark.
 
+## Live Demo
+
+**[View the live demo](https://iphonz.github.io/spillmarket-prototype)**
+
+The prototype is automatically deployed to GitHub Pages whenever changes are pushed to the main branch.
+
 ## Features
 
 - Vertical scrollable feed with snap functionality
@@ -42,6 +48,16 @@ npm install
 
 # Start development server
 npm start
+```
+
+## Deployment
+
+The project is set up to automatically deploy to GitHub Pages using GitHub Actions. Any push to the main branch will trigger a deployment.
+
+To manually deploy:
+
+```bash
+npm run deploy
 ```
 
 ## Usage
